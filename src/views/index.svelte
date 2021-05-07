@@ -4,13 +4,22 @@
   let clicked = 0;
 </script>
 
-<h1>i m index</h1>
+<style>
+  .i-m-red {
+    color: red;
+  }
+</style>
+
+<h1 class="i-m-red">i m index. m i red?</h1>
 
 <a href={$url('/pizza')}>Go for pizza</a>
+
+<a href={$url('/tabs')}>Go for tabs</a>
 <br />
-<Button on:click={() => clicked++}>
-  <Icon class="material-icons">favorite</Icon>
-  <Label>Leading Icon</Label>
+<br />
+<Button on:click={() => clicked++} variant="raised">
+  <Icon class="material-icons">thumb_up</Icon>
+  <Label>i m button. m i raised and all caps?</Label>
 </Button>
 
 <pre class="status">Clicked: {clicked}</pre>
