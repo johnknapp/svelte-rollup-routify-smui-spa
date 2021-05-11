@@ -31,6 +31,7 @@
     "rollup-plugin-terser": "^7.0.0",
     "sass": "^1.32.8",
     "svelte": "^3.0.0",
+    "svelte-material-ui": "^4.2.0",
     "svelte-preprocess": "^4.7.3"
   },
   "routify": {
