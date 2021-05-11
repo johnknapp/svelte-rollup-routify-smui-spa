@@ -1,6 +1,9 @@
 <script>
   import {url} from '@roxi/routify'
   import Button, { Label, Icon } from '@smui/button';
+  
+  import '@smui/button/styled';
+  
   let clicked = 0;
 </script>
 
