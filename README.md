@@ -10,6 +10,9 @@
 
 - Rollup has been configured to emit modules (as Routify expects) to `public/modules`.
 - Make sure `public/index.html` has the proper css and js import statements
+  - Including `modules/main.css`
+- To use the material styles within SMUI, you must import components with `/styled` appended to the import source. (This is part of the SMUI "Advanced Styling Method")
+  - i.e. `import Button from '@smui/button/styled';` versus `@smui/button`
 
 ## Containerization notes:
 
