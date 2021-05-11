@@ -19,7 +19,6 @@
     "@smui/button": "^4.2.0",
     "@smui/tab": "^4.2.0",
     "@smui/tab-bar": "^4.2.0",
-    "node-sass": "^5.0.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.2.9",
     "rollup": "^2.3.4",
