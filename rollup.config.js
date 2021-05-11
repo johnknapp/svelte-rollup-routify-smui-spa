@@ -5,7 +5,6 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import postcss from "rollup-plugin-postcss";
 import cleaner from 'rollup-plugin-cleaner';
-import autoPreprocess from 'svelte-preprocess';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -42,8 +41,7 @@ export default {
 		svelte({
 			compilerOptions: {
 				dev: !production
-			},
-      preprocess: autoPreprocess({ postcss: true })
+			}
 		}),
 
     cleaner({
