@@ -1,13 +1,9 @@
 <script>
   import {url} from '@roxi/routify'
 
-  import Tab, { Label } from '@smui/tab';
-  import TabBar from '@smui/tab-bar';
-  import Button from '@smui/button';
-  
-  import '@smui/tab/styled';
-  import '@smui/tab-bar/styled';
-  import '@smui/button/styled';
+  import Tab, { Label } from '@smui/tab/styled';
+  import TabBar from '@smui/tab-bar/styled';
+  import Button from '@smui/button/styled';
   
   let active = 'Home';
 </script>
